@@ -1,0 +1,70 @@
+.navbar-brand mx-auto {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .navbar-brand {
+              display: flex;
+              align-items: center; /* Vertically centers the text and image */
+              text-align: left;
+            }
+            .navbar-brand img {
+              margin-right: 15px; /* Space between image and text */
+            }
+            .text-green {
+              color: #28a745; /* Green color */
+            }
+            .navbar-brand div {
+              display: inline-block;
+              text-align: left; /* Ensures the text is next to the image */
+            }
+  .text-center{
+    text-align: center;
+  }
+  .modal-dialog {
+       max-width: 90%;
+       margin: 1.75rem auto;
+     }
+     .modal-content {
+       background-color: transparent;
+       border: none;
+     }
+     .circular-button {
+             width: 60px; 
+             height: 60px;
+             border-radius: 50%;
+             background-color: #ff0066;
+             border: none;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             cursor: pointer;
+             transition: background-color 0.3s;
+         }
+
+         .circular-button:hover {
+             background-color: #e6005c;
+         }
+
+         .circular-button svg {
+             width: 24px;
+             height: 24px;
+             fill: white;
+         }
+         .bookmark-button {
+           border: none;
+       background: none;
+       cursor: pointer;
+       color: black;
+       font-size: 16px;
+       transition: color 0.3s;
+           }
+           .bookmark-button:hover {
+               color: white;
+           }
+           .bookmark-button:focus {
+             outline: 2px solid black;
+         outline-offset: 2px;
+           }
